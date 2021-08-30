@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+	font-family: "Montserrat", Helvetica, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: rgb(20, 20, 20);
+	color: rgb(230, 230, 230);
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	color: rgb(0, 238, 255);
+}
+
+h3 {
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+a {
+	color: rgb(0, 238, 255);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.summary p:nth-child(1){
+	width: 75%;
+	margin: 0 auto;
+}
+
+.preamble {
+	line-height: 1.7rem;
+}
+
+.preamble h3 {
+	color: rgb(0, 238, 255);
+	text-decoration: underline;
+}
+
+.intro{
+	margin: 0 auto;
+	width: 75%;
+}
+
+.summary a:nth-child(1) {
+	color: rgb(0, 238, 255);
+}
+.summary a:nth-child(2) {
+	color: rgb(247, 0, 255);
+}
+
+.main {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	line-height: 1.7em;
+}
+
+.explanation{
+	width: 30%;
+	margin: 0 auto;
+	border: 3px solid rgb(247, 0, 255);
+	box-shadow: 7px 5px 26px -2px rgba(247,0,255,0.75);
+}
+
+.participation {
+	width: 30%;
+	margin: 0 auto;
+	border: 3px solid rgb(0, 238, 255);
+	box-shadow: 7px 5px 26px -2px rgba(0,238,255,0.75);
+}
+
+.benefits {
+	width: 30%;
+	margin: 0 auto;
+	border: 3px solid rgb(247, 0, 255);
+	box-shadow: 7px 5px 26px -2px rgba(247,0,255,0.75);
+}
+
+.requirements {
+	line-height: 2rem;
+}
+
+footer {
+	margin: 0 auto;
+}
+
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
