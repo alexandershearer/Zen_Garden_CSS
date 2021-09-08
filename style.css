@@ -7,6 +7,13 @@ body {
 	background-color: rgb(20, 20, 20);
 	color: rgb(230, 230, 230);
 	text-align: center;
+
+	background-image: url(https://webrender.gallerycdn.vsassets.io/extensions/webrender/synthwave-x-fluoromachine/0.0.12/1590473512909/Microsoft.VisualStudio.Services.Icons.Default);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position-x: 20px;
+	background-position-y: 10px;
+	
 }
 
 h1 {
